@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #f4f4f2;
+}
+
+.left {
+    width: 30%;
+}
+
+.right {
+    width: 70%;
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .wrapper .left {
+        width: 100%;
+    }
+    .wrapper .right {
+        width: 100%;
+    }
+    .right .table .row .el a {
+        font-size: 12px;
+    }
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left h2 {
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.left .links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.left .links .link {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.left .links .link a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+
+}
+
+.left .links .link img {
+    width: 32px;
+    height: 32px;
+}
+
+.right h2 {
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.right .table {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.right .table .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right .table .row .el {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 16px;
+    align-items: center;
+    background: white;
+    text-align: center;
+    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+    justify-content: space-between;
+}
+
+.right .table .row .el h3 {
+    font-size: 14px;
+    text-align: center;
+}
+
+.right .table .row .el .image {
+    height: 250px;
+    width: 100%;
+}
+
+.right .table .row .el .image1 {
+    background: url('../images/index1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image2 {
+    background: url('../images/index2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image3 {
+    background: url('../images/safgvdf.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image4 {
+    background:url('../images/index3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image5 {
+    background: url('../images/index5.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image6 {
+    background: url('../images/index6.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image7 {
+    background: url('../images/index7.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image8 {
+    background: url('../images/index8.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image9 {
+    background: url('../images/index9.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image10 {
+    background: url('../images/index10.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image11 {
+    background: url('../images/index11.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image12 {
+    background: url('../images/index12.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image13 {
+    background: url('../images/index13.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image14 {
+    background: url('../images/index14.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image15 {
+    background: url('../images/index15.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image16 {
+    background: url('../images/index16.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image18 {
+    background: url('../images/index18.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image19 {
+    background: url('../images/index19.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image20 {
+    background: url('../images/index20.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image21 {
+    background: url('../images/index21.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image22 {
+    background: url('../images/index22.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image23 {
+    background: url('../images/index23.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image24 {
+    background: url('../images/index24.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image17 {
+    background: url('../images/index17.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.right .table .row .el .image25  {
+    background: url('../images/index25.png');
+    background-position: center;
+    background-size: cover;
+}
+.right .table .row .el .image26  {
+    background: url('../images/bloknoty.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.right .table .row .el .image27  {
+    background: url('../images/plika.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.right .table .row .el .image28  {
+    background: url('../images/iphone-14-pro-paars-1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.right .table .row .el a {
+    text-decoration: none;
+    background: #8043a3;
+    padding: 8px 24px;
+    color: white;
+    border-radius: 8px;
+}
+
+
+
